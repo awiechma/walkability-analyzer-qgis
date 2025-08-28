@@ -60,9 +60,9 @@ Falls sie nicht installiert ist, kann man sie über die **OSGeo4W Shell** nachin
 2. **Distanz zum nächsten POI:** Für jede Kategorie wird die Entfernung zum nächstgelegenen POI berechnet.  
 3. **Einzugsradius:** Maximal mögliche Distanz = Gehgeschwindigkeit (80 m/min) × Zeitlimit.  
 4. **Rohscore:**  
-   \[
+   $$
    \text{raw} = 100 \times \left(1 - \frac{\text{Distanz}}{\text{Reichweite}}\right)
-   \]  
+   $$  
    Werte kleiner 0 → 0, größer 100 → 100.  
 5. **Gewichtung:** Jede Kategorie hat ein Gewicht (z. B. Supermarkt = 0.2).  
 6. **Gesamtwert:** Gewichtetes Mittel aller Kategorien.  
