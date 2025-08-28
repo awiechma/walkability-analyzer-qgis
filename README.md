@@ -79,9 +79,5 @@ Falls sie nicht installiert ist, kann man sie über die **OSGeo4W Shell** nachin
 - 🟠 40–59: Durchschnittliche Walkability
 - 🔴 0–39: Schwache Walkability
 
-## Export
-- **Layer:** Isochrone, Center, POIs  
-- **PDF:** Zusammenfassung, Detailtabelle, Empfehlungen, Kartenausschnitt, Legende  
-
 ## Konfiguration
 - **API-Key:** In `config.py` → `ORS_API_KEY` eintragen  
