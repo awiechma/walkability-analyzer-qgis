@@ -27,11 +27,11 @@ Ein QGIS-Plugin zur Analyse der Fußgängerfreundlichkeit (Walkability) von Stan
 
 ## Schnellstart
 
-
-# Plugin nach QGIS Plugin-Ordner kopieren:
-# Windows: C:\Users\[Name]\AppData\Roaming\QGIS\QGIS3\profiles\default\python\plugins\
-# Linux:   ~/.local/share/QGIS/QGIS3/profiles/default/python/plugins/
-
+Plugin nach QGIS Plugin-Ordner kopieren:
+```bash
+Windows: C:\Users\[Name]\AppData\Roaming\QGIS\QGIS3\profiles\default\python\plugins\
+Linux:   ~/.local/share/QGIS/QGIS3/profiles/default/python/plugins/
+```
 ## ReportLab Installation (für PDF-Export)
 
 Der PDF-Export benötigt die Python-Bibliothek **reportlab**.  
@@ -40,14 +40,14 @@ Falls sie nicht installiert ist, kann man sie über die **OSGeo4W Shell** nachin
 ### Windows (OSGeo4W Installation)
 1. **OSGeo4W Shell** öffnen (Startmenü → „OSGeo4W Shell“).  
 2. Folgenden Befehl eingeben:
-
+    ```bash
     python3 -m pip install --user reportlab
-
+    ```
 ### Linux
 1. In einem Terminal ausführen
-
+    ```bash
     python3 -m pip install --user reportlab
-
+    ```
 
 ## Systemanforderungen
 - QGIS 3.0+
