@@ -1,0 +1,18 @@
+# metadata.txt - Plugin-Metadaten 
+[general] 
+name=Walkability Analyzer
+version=1.0.0 
+qgisMinimumVersion=3.0 
+qgisMaximumVersion=3.99 
+description=Walkability assessment for urban areas using OpenRouteService API and OpenStreetMap data 
+about=This plugin analyzes walkability for different locations by calculating pedestrian isochrones and evaluating the availability of essential services (supermarkets, pharmacies, schools, etc.) within walking distance. The plugin uses the OpenRouteService API for route calculations and OpenStreetMap data via Overpass API for points of interest (POIs). It provides detailed scoring, visualization layers, and PDF export functionality. 
+
+
+author=Amon Wiechmann 
+email=awiechma@uni-muenster.de
+category=Analysis 
+tags=walkability,urban planning,accessibility,isochrone,pedestrian,osm,openstreetmap 
+icon=icon.png 
+license=MIT 
+licenseFile=LICENSE 
+licenseText=MIT License - see LICENSE file for details
